@@ -9,4 +9,9 @@
     <string name="enviar">Enviar</string>
     <string name="btnmargin">15dp</string>
     <string name="btnatrass">Atras</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="email">Email</string>
+    <string name="ocupacion">Ocupación</string>
 </resources>

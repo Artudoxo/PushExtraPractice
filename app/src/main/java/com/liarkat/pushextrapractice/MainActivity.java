@@ -31,17 +31,13 @@ public class MainActivity extends AppCompatActivity {
     public void MandarAOtroActivity(){
       ednombre = findViewById(R.id.ednombre);
       edapellido = findViewById(R.id.edapellido);
-      ededad = findViewById(R.id.ededad);
-      edemail = findViewById(R.id.edemail);
-      edtrabajo = findViewById(R.id.edtrabajo);
+
 
       Intent intent = new Intent(this, MostrarDatos.class);
 
       intent.putExtra("nombre", ednombre.getText().toString());
       intent.putExtra("apellido", edapellido.getText().toString());
-      intent.putExtra("edad", ededad.getText().toString());
-      intent.putExtra("email", edemail.getText().toString());
-      intent.putExtra("ocupacion", edtrabajo.getText().toString());
+
       startActivity(intent);
     }
 }

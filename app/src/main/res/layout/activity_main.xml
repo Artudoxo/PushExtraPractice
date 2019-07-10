@@ -24,21 +24,6 @@
             android:id="@+id/edapellido"
             android:hint="@string/hintapellido"/>
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ededad"
-            android:hint="@string/hintedad"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edemail"
-            android:hint="@string/hintemail"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edtrabajo"
-            android:hint="@string/hinttrabajo"/>
 
         <Button
             android:id="@+id/btnenviar"
