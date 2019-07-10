@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PushExtraPractice</string>
+    <string name="marginlinear">10dp</string>
+    <string name="hintnombre">Nombre</string>
+    <string name="hintapellido">Apellido</string>
+    <string name="hintedad">Edad</string>
+    <string name="hintemail">Email</string>
+    <string name="hinttrabajo">Ocupación</string>
+    <string name="enviar">Enviar</string>
+    <string name="btnmargin">15dp</string>
+    <string name="btnatrass">Atras</string>
+</resources>
