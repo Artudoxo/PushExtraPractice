@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MostrarDatos extends AppCompatActivity {
-    TextView txt1,txt2;
+    TextView txt1,txt2, txt3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,12 +17,14 @@ public class MostrarDatos extends AppCompatActivity {
         Button btnatras = findViewById(R.id.btnatras);
         txt1 = findViewById(R.id.txt1);
         txt2 = findViewById(R.id.txt2);
+        txt3 = findViewById(R.id.txt3);
 
         try{
             Bundle bundle = new Bundle();
             bundle = getIntent().getExtras();
             txt1.setText(bundle.getString("nombre"));
             txt2.setText(bundle.getString("apellido"));
+            txt3.setText(Integer.parseInt(bundle.getString("edad")));
 
         }catch(Exception e){
             Toast.makeText(getApplicationContext(), "¡A ocurrido un error!", Toast.LENGTH_SHORT).show();
